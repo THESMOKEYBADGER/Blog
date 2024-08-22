@@ -1,0 +1,100 @@
+/* public/styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+.post-container {
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-container img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.btn {
+    border-radius: 4px;
+}
+
+.modal-content {
+    border-radius: 8px;
+}
+
+.modal-header, .modal-body, .modal-footer {
+    border-bottom: 1px solid #ddd;
+}
+
+.modal-footer {
+    border-top: 1px solid #ddd;
+}
+
+.modal-title {
+    color: #007bff;
+}
+
+body {
+    background-color: #45474B; /* Change to your desired color */
+}
+header {
+    background-color: #d1e7dd; /* Example color for header */
+}
+footer {
+    background-color: #d1e7dd; /* Example color for footer */
+}
+
+.white-text {
+    color: white !important;
+}
+
+.boarder-left{
+    margin-left: 200px;
+}
+
+/* Gradient CSS */
+.blob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 650px;
+    border-radius: 100%;
+    background-image: linear-gradient(#1100ff 10%, yellow);
+    filter: blur(250px);
+    transition: all 450ms ease-out;
+    position: fixed;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    transform: translate(calc(-50% + 15px), -50%);
+    z-index: -1;
+}
+
